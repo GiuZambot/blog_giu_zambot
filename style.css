@@ -1,0 +1,53 @@
+html {
+  background-color: rgb(198, 217, 235);
+}
+
+body {
+  width: 400px;
+  margin: 10px auto;
+  background-color: #FF9500;
+  padding: 0 20px 20px 20px;
+  border: 5px solid black;
+  
+}
+
+h1 {
+  color: rgb(80, 88, 204);
+}
+
+p, li {
+ font-size: 22px;
+}
+
+.btn {
+  width: 150px;
+  display: block;
+  margin: 10px auto;
+}
+
+.btn:hover {
+  width: 160px;
+  cursor: pointer;
+}
+
+#titulo {
+  text-shadow: 2px 2px #3b1c1c;;
+  text-transform: capitalize;
+  animation-name: example;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  /* animation-timing-function: linear; */
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: both;
+  
+}
+
+/* @keyframes example {
+  from {background-color: red;} to {background-color: yellow;}
+} */
+
+@keyframes example {
+  0%   {background-color:red;text-shadow: 10px 10px 2px black; }
+  100% {background-color:yellow;text-shadow: -10px -10px 2px black; }
+}
