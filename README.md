@@ -2,4 +2,4 @@
 
 Aprendendo e implementando.
 
-Testando o Android Studio.
+Status: Hello World
